@@ -22,4 +22,4 @@ mkdir demo_deploy_Leo_app && cd demo_deploy_Leo_app
 WALLETADDRESS=""
 APPNAME=helloworld_"${WALLETADDRESS:4:6}"
 leo new "${APPNAME}"
-PATHTOAPP=$(realpath -q $eo" --private-key "${PRIVATEKEY}" --query "https://vm.aleo.org/api" --path "./${APPNAME}/build
+PATHTOAPP=$(realpath -q $eo" --private-key "${PRIVATEKEY}" --query "https://
